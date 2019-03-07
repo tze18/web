@@ -1,0 +1,19 @@
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th scope="col">name</th>
+        <th scope="col">age</th>
+        <th scope="col">id</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each sales}}
+    <tr>
+        <td>{{@index}} - {{id}}</td>
+        <td class="{{../myclass}}">{{{name}}}</td>
+        <td>{{age}}</td>
+    </tr>
+    {{/each}}
+
+    </tbody>
+</table>

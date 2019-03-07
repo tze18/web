@@ -1,0 +1,147 @@
+<style>
+  .col-md-8 {
+    width: 1600px;
+    margin: 20px;
+    float: left;
+
+      {
+        {
+         !-- background-color: darkslategrey --
+      }
+    }
+  }
+
+  ;
+
+
+  .md-3 {
+    background-color: darkslategrey
+  }
+
+  .cb{
+    width:500px;
+    margin:20px;
+    background-color:white
+  }
+  span{
+    margin:10px;
+  
+  }
+</style>
+{{!-- <div class="row" style="padding:auto"> --}}
+
+<div class="cb">
+  <div>
+    <img src="images/1.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">豚骨拉麵</span>
+      <span>
+      數量<input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r1">
+      <button class="btn btn-light" id="b1"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div>
+<div class="cb">
+  <div>
+    <img src="images/2.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">醬油拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r2">
+      <button class="btn btn-light" id="b2"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div><div class="cb">
+  <div>
+    <img src="images/3.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">白湯拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r3">
+      <button class="btn btn-light" id="b3"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div><div class="cb">
+  <div>
+    <img src="images/4.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">味噌拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r4">
+      <button class="btn btn-light" id="b4"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div><div class="cb">
+  <div>
+    <img src="images/6.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">蒙古白湯拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r5">
+      <button class="btn btn-light" id="b5"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div><div class="cb">
+  <div>
+    <img src="images/5.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">韓式拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r6">
+      <button class="btn btn-light" id="b6"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div>
+<div class="cb">
+  <div>
+    <img src="images/7.jpg" width="500">
+  </div>
+  <div>
+    <div class="card-body">
+      <span style="font-size:30px;font-color:black">地獄麻辣拉麵</span>
+      <span>
+      <input type="number" min="0" max="" step="1" style="width:50px;margin:20px" id="r7">
+      <button class="btn btn-light" id="b7"><i class="fas fa-shopping-cart"> 加入購物車</i>
+    </span></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    console.log("ready!");
+    $('#b1').click((event)=>{
+      console.log($("#r1").val())
+    })
+    $('#b2').click((event)=>{
+      console.log($("#r2").val())
+    })
+    $('#b3').click((event)=>{
+      console.log($("#r3").val())
+    })
+    $('#b4').click((event)=>{
+      console.log($("#r4").val())
+    })
+    $('#b5').click((event)=>{
+      console.log($("#r5").val())
+    })
+    $('#b6').click((event)=>{
+      console.log($("#r6").val())
+    })
+    $('#b7').click((event)=>{
+      console.log($("#r7").val())
+    })
+
+  });
+
+</script>
